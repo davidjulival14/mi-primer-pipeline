@@ -6,7 +6,7 @@ function sumar(a, b) {
 }
 
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'Hola Mundo', resultado: sumar(2, 3) });
+  res.json({ mensaje: 'Hola Arquitectos', resultado: sumar(2, 3) });
 });
 
 const PORT = process.env.PORT || 3000;
