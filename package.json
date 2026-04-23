@@ -4,7 +4,7 @@
   "description": "Laboratorio CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --forceExit",
     "start": "node app.js"
   },
   "repository": {
